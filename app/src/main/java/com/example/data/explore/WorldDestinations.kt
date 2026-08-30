@@ -1,0 +1,415 @@
+package com.example.data.explore
+
+import com.example.data.model.DestinationExploreData
+import com.example.data.model.FamousPlace
+import com.example.data.model.LocalFoodItem
+
+object WorldDestinations {
+
+    val switzerlandData = DestinationExploreData(
+        destination = "Switzerland (Interlaken, Jungfraujoch & Zurich)",
+        stateOrRegion = "Bernese Oberland / Zurich",
+        country = "Switzerland",
+        tagline = "Top of Europe: Alpine glaciers of Jungfraujoch, crystal lakes of Interlaken & Matterhorn peaks",
+        bestSeason = "June to September (Lush Alpine hiking) or Dec to March (Skiing & Winter wonderland)",
+        safetyTip = "Buy the Swiss Travel Pass for unlimited rides on trains, panoramic boats, and city trams.",
+        onlineTrendSummary = "Synthesized from 100+ YouTube Swiss Alps train vlogs, viral Lauterbrunnen waterfall reels, and alpine fondue guides.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "ch1",
+                name = "Jungfraujoch - Top of Europe (3,454m)",
+                localName = "Jungfraujoch",
+                category = "Nature",
+                description = "Europe's highest railway station at 11,332 ft, featuring the Aletsch Glacier (UNESCO), Sphinx Observatory deck, and crystal Ice Palace.",
+                highlights = listOf("Aletsch Glacier - longest ice glacier in Europe", "Sphinx Observation Terrace at 3,571m", "Ice Palace carved inside living glacier"),
+                entryFeeInr = 18500.0,
+                timings = "8:00 AM - 5:00 PM (Eiger Express Gondola + Cogwheel Train)",
+                bestTimeToVisit = "Morning 9:00 AM for clear panoramic views of Swiss & French Alps",
+                insiderTip = "Take the new Eiger Express tricable gondola from Grindelwald Terminal to save 47 minutes reaching the top.",
+                photoSpot = "Sphinx observation terrace with the snow peaks and Swiss flag blowing in alpine wind",
+                estimatedDurationHours = 5.0,
+                trendingTag = "🔥 #1 Top of Europe Alpine Wonder on YouTube",
+                rating = 4.9,
+                reviewCount = "65K+ reviews",
+                areaOrNeighborhood = "Jungfrau Region"
+            ),
+            FamousPlace(
+                id = "ch2",
+                name = "Lauterbrunnen Valley & Staubbach Falls",
+                localName = "Lauterbrunnental",
+                category = "Nature",
+                description = "Fairytale valley of 72 cascading waterfalls plunging from vertical limestone cliffs, which inspired Tolkien's Rivendell in Lord of the Rings.",
+                highlights = listOf("Staubbach 300m waterfall drop", "Trümmelbach glacial waterfalls inside mountain", "Traditional Swiss wooden chalets with flower balconies"),
+                entryFeeInr = 0.0,
+                timings = "Open 24/7 (Trümmelbach: 9:00 AM - 5:00 PM)",
+                bestTimeToVisit = "10:00 AM - 3:00 PM for bright sunbeams hitting waterfall mist",
+                insiderTip = "Walk the paved trail behind the base of Staubbach Fall to feel the refreshing glacial water spray.",
+                photoSpot = "Village church street looking up towards the towering Staubbach waterfall and chalets",
+                estimatedDurationHours = 3.5,
+                trendingTag = "📸 World's Most Viral Fairytale Valley on Instagram",
+                rating = 4.9,
+                reviewCount = "80K+ reviews",
+                areaOrNeighborhood = "Lauterbrunnen, Interlaken"
+            ),
+            FamousPlace(
+                id = "ch3",
+                name = "Lake Brienz & Lake Thun Panoramic Cruise",
+                localName = "Brienzersee & Thunersee",
+                category = "Viewpoint",
+                description = "Turquoise glacial lakes navigated by vintage paddle steamers passing fairytale castles (Oberhofen) and mountain peaks.",
+                highlights = listOf("Crash Landing on You piano pier at Iseltwald", "Oberhofen Castle turret over the water", "Giessbach historic grand hotel & waterfalls"),
+                entryFeeInr = 3200.0,
+                timings = "9:00 AM - 6:00 PM",
+                bestTimeToVisit = "4:00 PM for late afternoon lake reflections",
+                insiderTip = "Included 100% free if you carry the Swiss Travel Pass.",
+                photoSpot = "Wooden landing pier in Iseltwald looking across turquoise Lake Brienz",
+                estimatedDurationHours = 3.0,
+                trendingTag = "⛵ Crash Landing on You Iconic Lake Spot",
+                rating = 4.8,
+                reviewCount = "45K+ reviews",
+                areaOrNeighborhood = "Interlaken East / Brienz"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "chf1",
+                name = "Authentic Swiss Cheese Fondue & Raclette",
+                regionalName = "Schweizer Käsefondue",
+                description = "Melted Gruyère and Emmental cheeses blended with white wine and garlic in a communal Caquelon pot, served with crusty bread cubes, baby potatoes, and gherkins.",
+                dietType = "Vegetarian",
+                famousAtEatery = "Restaurant Taverne (Interlaken) & Swiss Chuchi (Zurich Old Town)",
+                averagePriceInr = 2800.0,
+                mustTryReason = "Switzerland's national dish of warmth, friendship, and centuries-old alpine cheesemaking.",
+                flavorProfile = "Rich, nutty, gooey melted cheese, garlicky & comforting",
+                isStreetFood = false,
+                trendingTag = "👑 National Culinary Icon of the Alps",
+                rating = 4.9,
+                areaOrNeighborhood = "Old Town Interlaken / Zurich"
+            ),
+            LocalFoodItem(
+                id = "chf2",
+                name = "Crispy Swiss Rösti with Herbs & Egg",
+                regionalName = "Rösti",
+                description = "Golden-crusted, pan-fried coarsely grated potatoes seasoned with butter and mountain herbs, topped with melted cheese or a fried sunny-side egg.",
+                dietType = "Vegetarian",
+                famousAtEatery = "Alpine Mountain Huts & Chalet Oberland",
+                averagePriceInr = 1600.0,
+                mustTryReason = "Original farmer's breakfast of the Bernese Oberland; crisp on the outside and buttery soft inside.",
+                flavorProfile = "Ultra-crispy golden crust, buttery, savory & aromatic herbs",
+                isStreetFood = false,
+                trendingTag = "⭐ Classic Swiss Comfort Food",
+                rating = 4.8,
+                areaOrNeighborhood = "Interlaken"
+            ),
+            LocalFoodItem(
+                id = "chf3",
+                name = "Artisan Swiss Chocolate & Lindt Truffles",
+                regionalName = "Schweizer Schokolade",
+                description = "Freshly made pralines, truffles, and single-origin alpine milk chocolate bars made with fresh mountain cream.",
+                dietType = "Sweet/Dessert",
+                famousAtEatery = "Lindt Home of Chocolate (Zurich) & Läderach Chocolatier",
+                averagePriceInr = 950.0,
+                mustTryReason = "Switzerland invented milk chocolate in 1875 – celebrated as the finest chocolate in the world.",
+                flavorProfile = "Silky, melt-in-mouth, rich cocoa & creamy alpine milk",
+                isStreetFood = true,
+                trendingTag = "🍫 World's #1 Luxury Chocolate Experience",
+                rating = 5.0,
+                areaOrNeighborhood = "Bahnhofstrasse, Zurich"
+            )
+        )
+    )
+
+    val dubaiData = DestinationExploreData(
+        destination = "Dubai & Abu Dhabi (UAE)",
+        stateOrRegion = "Emirate of Dubai",
+        country = "United Arab Emirates",
+        tagline = "Futuristic Desert Metropolis: Burj Khalifa observatory, Desert Safari dune bashing & luxury souks",
+        bestSeason = "November to March (Pleasant 24°C winter sunshine)",
+        safetyTip = "Dress respectfully in malls and religious sites, and use the driverless Dubai Metro Red Line for fast transit.",
+        onlineTrendSummary = "Synthesized from Burj Khalifa light show reels, Desert Safari 4x4 vlogs, and Dubai Marina yacht guides.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "dxb1",
+                name = "Burj Khalifa 'At the Top' (Levels 124 & 148)",
+                localName = "برج خليفة",
+                category = "Viewpoint",
+                description = "The world's tallest building (828m / 2,716 ft) featuring high-speed 10m/s elevators to 360-degree open-air glass observation decks.",
+                highlights = listOf("Observation deck at 555m (Level 148)", "Dubai Fountain dancing water show at base", "Illuminated LED building projection show"),
+                entryFeeInr = 3900.0,
+                timings = "8:30 AM - 11:00 PM",
+                bestTimeToVisit = "5:00 PM for Golden Hour sunset over the Arabian Gulf and city lights",
+                insiderTip = "Book At the Top sunset tickets 1 week prior online; watch the Dubai Fountain show from the outdoor terrace at 6:30 PM.",
+                photoSpot = "Level 124 outdoor terrace glass barrier with the sprawling Dubai skyline below",
+                estimatedDurationHours = 3.0,
+                trendingTag = "👑 World's Tallest Skyscraper Wonder",
+                rating = 4.8,
+                reviewCount = "150K+ reviews",
+                areaOrNeighborhood = "Downtown Dubai"
+            ),
+            FamousPlace(
+                id = "dxb2",
+                name = "Red Dunes Desert Safari & Bedouin Camp",
+                localName = "سفاري صحراوي",
+                category = "Adventure",
+                description = "4x4 Land Cruiser dune bashing across the Lahbab red desert dunes, sandboarding, camel rides, quad bikes, and Arabic BBQ dinner with Tanoura dance.",
+                highlights = listOf("Thrilling 4x4 dune bashing on 300ft red dunes", "Sandboarding on steep red dunes", "Bedouin desert camp BBQ dinner & fire show"),
+                entryFeeInr = 2800.0,
+                timings = "3:00 PM - 9:30 PM",
+                bestTimeToVisit = "Afternoon 3:00 PM hotel pickup",
+                insiderTip = "Wear loose clothing and flip-flops for easy walking on soft desert sand.",
+                photoSpot = "Crest of a giant red sand dune against the setting desert sun",
+                estimatedDurationHours = 6.0,
+                trendingTag = "⚡ Top Thrill Arabian Safari on YouTube",
+                rating = 4.9,
+                reviewCount = "120K+ reviews",
+                areaOrNeighborhood = "Lahbab Red Desert"
+            ),
+            FamousPlace(
+                id = "dxb3",
+                name = "Sheikh Zayed Grand Mosque (Abu Dhabi)",
+                localName = "جامع الشيخ زايد الكبير",
+                category = "Historical",
+                description = "One of the world's largest and most breathtaking mosques, built with pure white Macedonian marble, 82 domes, and 24-carat gold chandeliers.",
+                highlights = listOf("World's largest hand-knotted Iranian carpet", "24-Carat gold-gilded Swarovski crystal chandeliers", "Reflective water pools mirroring marble minarets"),
+                entryFeeInr = 0.0,
+                timings = "9:00 AM - 10:00 PM (Fridays 3:00 PM - 10:00 PM)",
+                bestTimeToVisit = "4:30 PM to see white marble turn pink at sunset, then illuminated cyan at night",
+                insiderTip = "Strict modest dress code (Abayas provided for women); free entrance with pre-booked QR code online.",
+                photoSpot = "Main courtyard reflecting pool showing the symmetrical white marble colonnades",
+                estimatedDurationHours = 2.5,
+                trendingTag = "✨ #1 Architectural Wonder of the Middle East",
+                rating = 4.9,
+                reviewCount = "110K+ reviews",
+                areaOrNeighborhood = "Abu Dhabi (1hr from Dubai)"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "dxbf1",
+                name = "Emirati Al Machboos & Shawarma",
+                regionalName = "مجبوس اللحم والشاورما",
+                description = "Aromatic spiced basmati rice slow-cooked with tender meat, dried black lime (Loomi), cardamom, and cinnamon, paired with freshly sliced chicken shawarma.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Al Fanar Restaurant (Dubai Festival City) & Al Mallah (Dhiyafa Street)",
+                averagePriceInr = 550.0,
+                mustTryReason = "The traditional national rice dish of the Emirates bursting with fragrant Loomi lime aromatics.",
+                flavorProfile = "Fragrant cardamom, tangy black lime, spiced meat & comforting",
+                isStreetFood = true,
+                trendingTag = "👑 Authentic Emirati National Signature",
+                rating = 4.8,
+                areaOrNeighborhood = "Al Dhiyafa / Old Dubai"
+            ),
+            LocalFoodItem(
+                id = "dxbf2",
+                name = "Warm Luqaimat with Date Syrup & Sesame",
+                regionalName = "لقيمات",
+                description = "Golden, crunchy deep-fried dough dumplings drizzled generously with thick sweet date syrup (Debs) and toasted sesame seeds.",
+                dietType = "Sweet/Dessert",
+                famousAtEatery = "Arabian Tea House (Al Fahidi Historical Neighborhood)",
+                averagePriceInr = 250.0,
+                mustTryReason = "The timeless Emirati sweet treat enjoyed warm with aromatic Arabic coffee (Gahwa).",
+                flavorProfile = "Crispy exterior, airy doughnut soft inside, sweet date syrup & nutty",
+                isStreetFood = true,
+                trendingTag = "🔥 Viral Sweet on Instagram Food Reels",
+                rating = 4.9,
+                areaOrNeighborhood = "Al Fahidi Historical District"
+            )
+        )
+    )
+
+    val baliData = DestinationExploreData(
+        destination = "Bali (Ubud, Canggu, Uluwatu & Nusa Penida)",
+        stateOrRegion = "Bali Province",
+        country = "Indonesia",
+        tagline = "Island of the Gods: Tegalalang rice terraces, Uluwatu cliff temple & Kelingking T-Rex Beach",
+        bestSeason = "April to October (Dry, sunny & tropical)",
+        safetyTip = "Rent a scooter (IDR 70K/day) with an international permit and beware of monkeys at Uluwatu Temple.",
+        onlineTrendSummary = "Synthesized from Bali scooter road trip vlogs, Nusa Penida T-Rex cliff reels, and Ubud smoothie bowl cafes.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "bali1",
+                name = "Kelingking Beach T-Rex Cliff (Nusa Penida)",
+                localName = "Pantai Kelingking",
+                category = "Nature",
+                description = "Iconic limestone cliff formation resembling a Tyrannosaurus Rex overlooking secluded white sands and pristine turquoise ocean.",
+                highlights = listOf("T-Rex dinosaur cliff viewpoint", "Thrilling bamboo staircase trek down to secluded beach", "Manta ray spotting from the clifftop"),
+                entryFeeInr = 250.0,
+                timings = "6:00 AM - 6:30 PM (Fast boat from Sanur)",
+                bestTimeToVisit = "8:00 AM - 10:00 AM before afternoon tour groups arrive",
+                insiderTip = "Take the 45-minute fast boat from Sanur Harbour; stay hydrated if doing the steep hike down to the sand.",
+                photoSpot = "Upper spine path looking down at the turquoise curve of the T-Rex head",
+                estimatedDurationHours = 4.5,
+                trendingTag = "🔥 #1 Most Viral Island Cliff in the World",
+                rating = 4.9,
+                reviewCount = "90K+ reviews",
+                areaOrNeighborhood = "Nusa Penida Island"
+            ),
+            FamousPlace(
+                id = "bali2",
+                name = "Tegalalang Rice Terraces & Jungle Swing",
+                localName = "Sawah Terasering Tegalalang",
+                category = "Nature",
+                description = "Centuries-old Subak UNESCO irrigation rice terraces sculpted into emerald valleys with giant jungle swings soaring over coconut palms.",
+                highlights = listOf("UNESCO Subak stepped rice terraces", "Giant high-flying Bali jungle swing", "Aesthetic bird-nest photo booths"),
+                entryFeeInr = 150.0,
+                timings = "8:00 AM - 6:00 PM",
+                bestTimeToVisit = "Early morning 7:30 AM for mist and sun rays through palm trees",
+                insiderTip = "Wear bright flowing outfits (red or yellow) for the most stunning jungle swing photos.",
+                photoSpot = "Jungle swing at maximum apex with emerald rice terraces below",
+                estimatedDurationHours = 3.0,
+                trendingTag = "📸 World-Famous Jungle Swing & Rice Terraces",
+                rating = 4.7,
+                reviewCount = "75K+ reviews",
+                areaOrNeighborhood = "Ubud, Gianyar"
+            ),
+            FamousPlace(
+                id = "bali3",
+                name = "Uluwatu Temple & Sunset Kecak Fire Dance",
+                localName = "Pura Luhur Uluwatu",
+                category = "Cultural",
+                description = "70-meter sea cliff temple where the rhythmic Kecak Fire Dance tells the Ramayana epic as the sun dips into the vast Indian Ocean.",
+                highlights = listOf("70m Dramatic ocean cliff temple", "Hypnotic 50-man Kecak chanting fire dance", "Spectacular sunset over the open ocean"),
+                entryFeeInr = 850.0,
+                timings = "7:00 AM - 7:00 PM (Kecak dance starts at 6:00 PM)",
+                bestTimeToVisit = "4:30 PM to secure amphitheater seats for the 6:00 PM dance",
+                insiderTip = "Remove sunglasses, hats, and shiny jewelry as the resident monkeys are notorious pickpockets.",
+                photoSpot = "Amphitheater top tier showing the fire circle with ocean sunset behind",
+                estimatedDurationHours = 3.0,
+                trendingTag = "🔥 #1 Sunset Fire Dance Spectacle on YouTube",
+                rating = 4.8,
+                reviewCount = "85K+ reviews",
+                areaOrNeighborhood = "Uluwatu, South Bali"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "balif1",
+                name = "Nasi Goreng & Chicken Satay with Peanut Sauce",
+                regionalName = "Nasi Goreng & Sate Ayam",
+                description = "Wok-tossed aromatic fried rice with sweet soy (Kecap Manis), shallots, and garlic, served with grilled lemongrass chicken skewers in rich peanut sauce.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Warung Babi Guling Ibu Oka (Ubud) & Warung Nia (Seminyak)",
+                averagePriceInr = 280.0,
+                mustTryReason = "Indonesia's beloved national comfort dish packed with umami and smoky charcoal skewers.",
+                flavorProfile = "Savory-sweet wok hei, smoky grilled satay & rich nutty peanut sauce",
+                isStreetFood = true,
+                trendingTag = "👑 World-Famous Indonesian Street Staple",
+                rating = 4.9,
+                areaOrNeighborhood = "Ubud / Seminyak"
+            ),
+            LocalFoodItem(
+                id = "balif2",
+                name = "Tropical Dragonfruit Smoothie Bowl",
+                regionalName = "Bali Smoothie Bowl",
+                description = "Thick blended pink dragonfruit, mango, and frozen banana base topped with chia seeds, toasted coconut flakes, granola, and fresh passionfruit.",
+                dietType = "Vegetarian",
+                famousAtEatery = "Nalu Bowls & Kynd Community (Seminyak / Canggu)",
+                averagePriceInr = 350.0,
+                mustTryReason = "The quintessential aesthetic tropical breakfast that fueled Bali's cafe culture revolution.",
+                flavorProfile = "Chilled, fruity, tangy passionfruit, crunchy granola & refreshing",
+                isStreetFood = false,
+                trendingTag = "🌸 Aesthetic Cafe Hit on Instagram Reels",
+                rating = 4.9,
+                areaOrNeighborhood = "Canggu / Seminyak"
+            )
+        )
+    )
+
+    val tokyoData = DestinationExploreData(
+        destination = "Tokyo & Kyoto (Japan)",
+        stateOrRegion = "Kanto & Kansai",
+        country = "Japan",
+        tagline = "Neon Metropolis & Ancient Traditions: Shibuya Crossing, Mount Fuji & 10,000 Torii gates of Fushimi Inari",
+        bestSeason = "March to May (Cherry Blossoms / Sakura) or Oct to Nov (Autumn Foliage)",
+        safetyTip = "Purchase a Suica / Pasmo transit IC card and use Google Maps for precise Tokyo subway line transfers.",
+        onlineTrendSummary = "Synthesized from 120+ YouTube Tokyo food crawl vlogs, Kyoto temple reels, and Shinkansen bullet train journeys.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "jp1",
+                name = "Shibuya Scramble Crossing & Sky Observatory",
+                localName = "渋谷スクランブル交差点",
+                category = "Historical",
+                description = "The world's busiest pedestrian crossing where up to 3,000 people cross simultaneously on every green light, overlooked by the 229m Shibuya Sky glass deck.",
+                highlights = listOf("World's busiest scramble intersection", "Shibuya Sky 360-degree open-air glass rooftop", "Hachiko loyal dog bronze memorial statue"),
+                entryFeeInr = 1400.0,
+                timings = "Open 24/7 (Shibuya Sky: 10:00 AM - 10:30 PM)",
+                bestTimeToVisit = "7:00 PM when thousands cross under dazzling neon billboard lights",
+                insiderTip = "Book Shibuya Sky tickets for 5:30 PM to catch the sunset transition into glittering neon night lights.",
+                photoSpot = "Shibuya Sky glass corner 'Sky Edge' looking down at the crossing",
+                estimatedDurationHours = 2.5,
+                trendingTag = "🔥 #1 Most Iconic Urban Intersection in the World",
+                rating = 4.8,
+                reviewCount = "140K+ reviews",
+                areaOrNeighborhood = "Shibuya, Tokyo"
+            ),
+            FamousPlace(
+                id = "jp2",
+                name = "Fushimi Inari Taisha (10,000 Torii Gates, Kyoto)",
+                localName = "伏見稲荷大社",
+                category = "Spiritual",
+                description = "Breathtaking 4-kilometer mountain trail covered by a tunnel of over 10,000 vibrant vermilion Torii gates dedicated to Inari, the Shinto god of prosperity.",
+                highlights = listOf("Senbon Torii tunnel of 10,000 orange gates", "Sacred fox (Kitsune) stone messengers", "Mount Inari summit mountain trail"),
+                entryFeeInr = 0.0,
+                timings = "Open 24/7",
+                bestTimeToVisit = "Early morning 6:30 AM before tourist crowds arrive",
+                insiderTip = "The first 200 meters are crowded; hike 20 minutes higher up the mountain for serene, empty Torii gate corridors.",
+                photoSpot = "Curved corridor of twin Torii gates with morning sunbeams filtering through",
+                estimatedDurationHours = 3.5,
+                trendingTag = "⛩️ #1 Cultural Landmark in Japan on Social Media",
+                rating = 4.9,
+                reviewCount = "130K+ reviews",
+                areaOrNeighborhood = "Fushimi Ward, Kyoto"
+            ),
+            FamousPlace(
+                id = "jp3",
+                name = "Mount Fuji & Lake Kawaguchiko",
+                localName = "富士山・河口湖",
+                category = "Nature",
+                description = "Japan's sacred 3,776m snow-capped volcano reflected in the mirror waters of Lake Kawaguchiko with the 5-story Chureito Pagoda.",
+                highlights = listOf("Chureito Pagoda postcard viewpoint", "Lake Kawaguchiko sightseeing ropeway", "Oshino Hakkai natural spring village"),
+                entryFeeInr = 0.0,
+                timings = "Open 24/7",
+                bestTimeToVisit = "Early morning 7:00 AM for clear, cloud-free snow peak views",
+                insiderTip = "Mount Fuji is clearest in the early morning; check the live Kawaguchiko webcam before heading out on the train.",
+                photoSpot = "Chureito Pagoda with Mount Fuji centered behind cherry blossoms / autumn leaves",
+                estimatedDurationHours = 5.0,
+                trendingTag = "🗻 Japan's Timeless Sacred Emblem on YouTube",
+                rating = 4.9,
+                reviewCount = "100K+ reviews",
+                areaOrNeighborhood = "Yamanashi Prefecture"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "jpf1",
+                name = "Authentic Japanese Ramen (Tonkotsu & Shoyu)",
+                regionalName = "日本のラーメン",
+                description = "Slow-simmered rich 18-hour pork/chicken bone broth with springy handmade noodles, tender Chashu pork slices, marinated soft-boiled egg (Ajitsuke Tamago), and nori.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Ichiran Ramen (Shinjuku/Shibuya), Ippudo & Afuri Yuzu Ramen",
+                averagePriceInr = 750.0,
+                mustTryReason = "The pinnacle of noodle craftsmanship: customize noodle firmness, richness, and secret spicy red sauce.",
+                flavorProfile = "Umami-rich, velvety savory broth, tender Chashu & silky egg",
+                isStreetFood = true,
+                trendingTag = "👑 World-Famous Japanese Ramen Experience",
+                rating = 4.9,
+                areaOrNeighborhood = "Shinjuku / Shibuya, Tokyo"
+            ),
+            LocalFoodItem(
+                id = "jpf2",
+                name = "Uji Matcha Soft Serve & Dango Mochi",
+                regionalName = "宇治抹茶ソフトクリーム",
+                description = "Creamy, bittersweet soft-serve ice cream crafted from ceremonial-grade stone-ground Uji matcha green tea, served with chewy sweet rice dango mochi.",
+                dietType = "Sweet/Dessert",
+                famousAtEatery = "Gion Tsujiri (Kyoto) & Asakusa Kaminarimon Matcha Shops",
+                averagePriceInr = 320.0,
+                mustTryReason = "Uji (Kyoto) produces the highest grade matcha in Japan with a rich, vibrant green hue and deep earthy sweetness.",
+                flavorProfile = "Bittersweet, velvety rich matcha cream, chewy mochi & refreshing",
+                isStreetFood = true,
+                trendingTag = "🍵 Viral Japanese Matcha Dessert on TikTok",
+                rating = 4.9,
+                areaOrNeighborhood = "Gion, Kyoto / Asakusa, Tokyo"
+            )
+        )
+    )
+}

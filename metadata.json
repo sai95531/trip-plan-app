@@ -1,0 +1,8 @@
+{
+  "name": "Trip Planner & Tracker",
+  "description": "AI-powered travel planner based on leaves, local food & famous places guide, two-way live translation, location-aware recommendations, and smart receipt expense tracking with ₹ INR currency support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

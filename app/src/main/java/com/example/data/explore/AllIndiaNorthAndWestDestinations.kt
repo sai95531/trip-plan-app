@@ -1,0 +1,415 @@
+package com.example.data.explore
+
+import com.example.data.model.DestinationExploreData
+import com.example.data.model.FamousPlace
+import com.example.data.model.LocalFoodItem
+
+object AllIndiaNorthAndWestDestinations {
+
+    val kashmirData = DestinationExploreData(
+        destination = "Kashmir (Srinagar, Gulmarg & Pahalgam)",
+        stateOrRegion = "Jammu & Kashmir",
+        country = "India",
+        tagline = "Paradise on Earth: Shikara rides on Dal Lake, snow slopes of Gulmarg & Betaab Valley meadows",
+        bestSeason = "April to October (Lush greenery) or Dec to Feb (Snow skiing)",
+        safetyTip = "Hire prepaid tourist taxis and bargain gently for Shikara rides and pony treks.",
+        onlineTrendSummary = "Aggregated from 50+ YouTube Kashmir 4K travel vlogs, viral Instagram snow gondola reels, and Google 4.8★ reviews.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "jk1",
+                name = "Dal Lake Shikara & Floating Market",
+                localName = "ڈل جھیل",
+                category = "Nature",
+                description = "World-renowned mirror lake framed by Zabarwan mountains, featuring traditional wooden houseboats, shikara rides, and the 5:00 AM floating vegetable market.",
+                highlights = listOf("Wooden Shikara ride with Kashmiri attire", "5 AM floating wholesale flower/vegetable market", "Heritage carved houseboats", "Char Chinar island"),
+                entryFeeInr = 700.0,
+                timings = "5:00 AM - 9:00 PM",
+                bestTimeToVisit = "Sunrise 5:30 AM or Sunset 5:30 PM",
+                insiderTip = "Wake up at 5:00 AM to take a shikara to the floating vegetable market for the most authentic cultural experience.",
+                photoSpot = "Front of wooden Shikara framed by lotus blooms and mountain reflections",
+                estimatedDurationHours = 3.0,
+                trendingTag = "🔥 #1 Most Viral Travel Experience in India",
+                rating = 4.9,
+                reviewCount = "110K+ reviews",
+                areaOrNeighborhood = "Boulevard Road, Srinagar"
+            ),
+            FamousPlace(
+                id = "jk2",
+                name = "Gulmarg Gondola & Kongdoori Snow Slopes",
+                localName = "گلمرگ گنڈولہ",
+                category = "Adventure",
+                description = "Asia's highest operating cable car reaching 13,780 ft (Phase 2 Apharwat Peak) offering world-class powder skiing and panoramic Himalayan vistas.",
+                highlights = listOf("Phase 1 Kongdoori & Phase 2 Apharwat Peak at 13,780 ft", "Snow skiing, snowboarding & snowmobiles", "Pine forest cable car ride"),
+                entryFeeInr = 1850.0,
+                timings = "9:00 AM - 5:00 PM (Subject to weather)",
+                bestTimeToVisit = "Morning 9:00 AM slot",
+                insiderTip = "Book Gondola tickets strictly 2-3 weeks in advance online from JK Tourism official portal; Phase 2 slots sell out instantly.",
+                photoSpot = "Apharwat Peak ridge overlooking the frozen alpine lake and clouds",
+                estimatedDurationHours = 4.5,
+                trendingTag = "⚡ Asia's Highest Cable Car Thrill on YouTube",
+                rating = 4.8,
+                reviewCount = "85K+ reviews",
+                areaOrNeighborhood = "Gulmarg Ski Resort"
+            ),
+            FamousPlace(
+                id = "jk3",
+                name = "Betaab Valley & Aru Valley",
+                localName = "بیتاب وادی",
+                category = "Nature",
+                description = "Breathtaking sub-alpine valley named after the Bollywood hit film Betaab, surrounded by dense deodar forests, snow peaks, and crystal Lidder River.",
+                highlights = listOf("Crystal turquoise Lidder River", "Lush emerald meadows framed by deodar trees", "Pony rides into Aru Valley wildlife sanctuary"),
+                entryFeeInr = 100.0,
+                timings = "8:00 AM - 6:00 PM",
+                bestTimeToVisit = "10:00 AM - 3:00 PM",
+                insiderTip = "Pack a picnic blanket and sit beside the bubbling mountain stream; walk past the main lawn bridge for quiet spots.",
+                photoSpot = "Wooden suspension bridge over the turquoise Lidder river",
+                estimatedDurationHours = 3.0,
+                trendingTag = "📸 Bollywood Cinematography Legend on Instagram",
+                rating = 4.8,
+                reviewCount = "60K+ reviews",
+                areaOrNeighborhood = "Pahalgam, Anantnag"
+            ),
+            FamousPlace(
+                id = "jk4",
+                name = "Mughal Gardens (Shalimar & Nishat Bagh)",
+                localName = "نشاط باغ اور شالیمار باغ",
+                category = "Historical",
+                description = "17th-century terraced Mughal pleasure gardens built by Emperor Jahangir for Queen Nur Jahan, featuring stepped water cascades and giant 400-year-old Chinar trees.",
+                highlights = listOf("12 Terraces symbolizing zodiac signs at Nishat", "Stepped marble water cascades & fountains", "Ancient giant Chinar trees (glowing red in Autumn)"),
+                entryFeeInr = 25.0,
+                timings = "9:00 AM - 7:00 PM",
+                bestTimeToVisit = "4:00 PM - 6:30 PM (Golden Autumn in October-November)",
+                insiderTip = "Visit in October to late November to see the iconic Chinar leaves turn fiery orange and crimson.",
+                photoSpot = "Top terrace water fountain axis looking down onto Dal Lake",
+                estimatedDurationHours = 2.0,
+                trendingTag = "🏛️ Royal Mughal Garden Masterpiece",
+                rating = 4.7,
+                reviewCount = "70K+ reviews",
+                areaOrNeighborhood = "Dal Lake Foreshore, Srinagar"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "jkf1",
+                name = "Kashmiri Wazwan Rogan Josh & Rista",
+                regionalName = "کشمیری وازوان",
+                description = "Multi-course royal banquet specialty: Tender mutton braised in a gravy flavored with Kashmiri Mawal cockscomb flower, dried ginger (Sonth), fennel, and aromatic spices.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Ahdoos Restaurant (Residency Road) & Mughal Darbar (Srinagar)",
+                averagePriceInr = 450.0,
+                mustTryReason = "Centuries-old royal culinary art prepared exclusively by master chefs called 'Wazas'.",
+                flavorProfile = "Aromatic, saffron-scented, rich, tender meat & deep fennel notes",
+                isStreetFood = false,
+                trendingTag = "👑 World-Famous 36-Course Royal Feast",
+                rating = 4.9,
+                areaOrNeighborhood = "Residency Road, Srinagar"
+            ),
+            LocalFoodItem(
+                id = "jkf2",
+                name = "Kashmiri Saffron Kehwa Tea",
+                regionalName = "کشمیری قہوہ",
+                description = "Traditional green tea infused with pure Pampore saffron strands, green cardamom, cinnamon, clove, and a generous sprinkle of crushed almonds.",
+                dietType = "Beverage",
+                famousAtEatery = "Chai Jaai (Dalgate) & Gulmarg Valley Tea Stalls",
+                averagePriceInr = 80.0,
+                mustTryReason = "The soothing golden elixir that warms the soul and offers authentic saffron aromatics.",
+                flavorProfile = "Fragrant, sweet, saffron-infused, nutty almond crunch & warming",
+                isStreetFood = true,
+                trendingTag = "☕ Authentic Himalayan Warmth",
+                rating = 4.9,
+                areaOrNeighborhood = "Dalgate, Srinagar"
+            ),
+            LocalFoodItem(
+                id = "jkf3",
+                name = "Kashmiri Harissa with Warm Girda Bread",
+                regionalName = "کشمیری ہریسہ",
+                description = "Traditional winter delicacy slow-cooked for 12 hours overnight with mutton, rice, and aromatic spices, tempered with sizzling mustard oil and served with tandoori Girda.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Ali Harissa Shop (Fateh Kadal, Downtown Srinagar since 1930s)",
+                averagePriceInr = 220.0,
+                mustTryReason = "A 200-year-old downtown winter morning ritual enjoyed between 6 AM and 9 AM.",
+                flavorProfile = "Velvety, rich, sizzling mustard aromatics & melt-in-mouth",
+                isStreetFood = true,
+                trendingTag = "🔥 Downtown Srinagar 100-Year Winter Legend",
+                rating = 4.9,
+                areaOrNeighborhood = "Fateh Kadal, Downtown Srinagar"
+            )
+        )
+    )
+
+    val ladakhData = DestinationExploreData(
+        destination = "Ladakh (Leh, Pangong & Nubra Valley)",
+        stateOrRegion = "Ladakh",
+        country = "India",
+        tagline = "The Land of High Passes: Pangong Tso color-shifting lake, Nubra sand dunes & ancient monasteries",
+        bestSeason = "May to September",
+        safetyTip = "Strictly rest and acclimatize in Leh for 48 hours to prevent Acute Mountain Sickness (AMS). Drink 4L water daily.",
+        onlineTrendSummary = "Aggregated from YouTube Leh-Ladakh motorcycle expedition vlogs, Pangong sunset reels, and Himalayan monastery guides.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "ld1",
+                name = "Pangong Tso Lake (14,270 ft)",
+                localName = "སྤང་གོང་མཚོ།",
+                category = "Nature",
+                description = "High-altitude endorheic lake stretching 134 km from India to Tibet, famous for changing colors from crystal turquoise to cobalt blue throughout the day.",
+                highlights = listOf("7 Color-shifting water shades under changing sunlight", "3 Idiots yellow scooter photo point", "Overnight stargazing under pristine Milky Way skies"),
+                entryFeeInr = 0.0,
+                timings = "24/7 (Inner Line Permit mandatory)",
+                bestTimeToVisit = "Early morning 6:30 AM or Sunset 5:30 PM",
+                insiderTip = "Stay overnight in Lukung or Spangmik eco-cottages to witness the galaxy of stars and early morning mirror reflections.",
+                photoSpot = "Lukung shoreline with turquoise ripples reflecting snow-capped peaks",
+                estimatedDurationHours = 5.0,
+                trendingTag = "🔥 #1 World-Renowned High Altitude Lake",
+                rating = 4.9,
+                reviewCount = "75K+ reviews",
+                areaOrNeighborhood = "Lukung / Spangmik"
+            ),
+            FamousPlace(
+                id = "ld2",
+                name = "Nubra Valley & Hunder Sand Dunes",
+                localName = "ནུབ་ར་གཤོངས་ཆེན།",
+                category = "Adventure",
+                description = "Dramatic high-altitude desert valley where you ride double-humped Bactrian camels amidst cold white sand dunes framed by snow-capped mountains.",
+                highlights = listOf("Double-humped Bactrian camel safari", "Diskit Monastery giant 106ft Maitreya Buddha", "Khardung La pass crossing (17,982 ft)"),
+                entryFeeInr = 300.0,
+                timings = "8:00 AM - 7:00 PM",
+                bestTimeToVisit = "5:00 PM for sunset camel safari in Hunder dunes",
+                insiderTip = "Visit Diskit Monastery at sunset for a sweeping panoramic view of the entire Shyok river valley beneath Buddha's blessings.",
+                photoSpot = "Hunder sand dunes with double-humped camels and snow peak background",
+                estimatedDurationHours = 4.0,
+                trendingTag = "🐪 Viral High-Altitude Desert Safari on YouTube",
+                rating = 4.8,
+                reviewCount = "65K+ reviews",
+                areaOrNeighborhood = "Hunder & Diskit, Nubra"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "ldf1",
+                name = "Ladakhi Skyu & Thukpa",
+                regionalName = "སྐྱུ།",
+                description = "Hearty traditional Ladakhi stew made with handmade wheat dough thumb nuggets, root vegetables, and mountain herbs simmered in a warm savory broth.",
+                dietType = "Vegetarian",
+                famousAtEatery = "The Tibetan Kitchen (Fort Road) & Lamayuru Restaurant (Leh)",
+                averagePriceInr = 180.0,
+                mustTryReason = "The traditional staple that has energized Ladakhi mountain dwellers through harsh sub-zero winters for centuries.",
+                flavorProfile = "Hearty, savory, comforting wheat dumplings & soothing broth",
+                isStreetFood = false,
+                trendingTag = "👑 Authentic Ladakhi Mountain Staple",
+                rating = 4.8,
+                areaOrNeighborhood = "Fort Road, Leh"
+            ),
+            LocalFoodItem(
+                id = "ldf2",
+                name = "Butter Tea (Gur Gur Chai)",
+                regionalName = "གུར་གུར་ཇ།",
+                description = "Traditional Himalayan pink tea churned with yak butter, salt, and black tea leaves in a wooden cylinder called Gur Gur.",
+                dietType = "Beverage",
+                famousAtEatery = "Gesmo Restaurant & Leh Main Bazaar Stalls",
+                averagePriceInr = 60.0,
+                mustTryReason = "Essential for altitude acclimatization, chapped lips, and body warmth in dry high mountains.",
+                flavorProfile = "Salty, buttery, creamy & earthy tea notes",
+                isStreetFood = true,
+                trendingTag = "🧈 High Himalayan Vitality Drink",
+                rating = 4.6,
+                areaOrNeighborhood = "Main Bazaar, Leh"
+            )
+        )
+    )
+
+    val uttarakhandData = DestinationExploreData(
+        destination = "Uttarakhand (Rishikesh, Nainital, Mussoorie & Kedarnath)",
+        stateOrRegion = "Uttarakhand (Devbhoomi)",
+        country = "India",
+        tagline = "Devbhoomi (Land of the Gods): Ganga river rafting in Rishikesh, emerald lakes of Nainital & holy Kedarnath peaks",
+        bestSeason = "March to June & September to November",
+        safetyTip = "Book certified river rafting guides at Shivpuri and carry biometric registrations for Char Dham Yatra.",
+        onlineTrendSummary = "Synthesized from Rishikesh adventure vlogs, Ganga Aarti live streams, and Himalayan trek journals.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "uk1",
+                name = "Rishikesh White Water Rafting & Cliff Jump",
+                localName = "ऋषिकेश राफ्टिंग",
+                category = "Adventure",
+                description = "World capital of yoga and adventure: 16km thrilling grade III/IV rapids on the emerald Ganges from Shivpuri to NIM Beach with a 25ft cliff jump.",
+                highlights = listOf("Roller Coaster & Golf Course Rapids", "25ft Magpie cliff jumping point", "Ganga river beach camping"),
+                entryFeeInr = 800.0,
+                timings = "8:00 AM - 4:00 PM",
+                bestTimeToVisit = "10:00 AM - 2:00 PM (March-June or Oct-Nov)",
+                insiderTip = "Always wear the provided life jacket and helmet; opt for the 16km Shivpuri stretch for the best mix of thrills.",
+                photoSpot = "Go-Pro action shot while plunging through the Roller Coaster rapid",
+                estimatedDurationHours = 3.5,
+                trendingTag = "⚡ India's #1 River Rafting Capital on YouTube",
+                rating = 4.8,
+                reviewCount = "95K+ reviews",
+                areaOrNeighborhood = "Shivpuri to Tapovan, Rishikesh"
+            ),
+            FamousPlace(
+                id = "uk2",
+                name = "Kedarnath Temple (11,755 ft)",
+                localName = "केदारनाथ धाम",
+                category = "Spiritual",
+                description = "One of the 12 sacred Jyotirlingas and highest Shiva temple in the Himalayas, framed by the towering snow-covered Kedarnath peak.",
+                highlights = listOf("Ancient 8th-century stone temple built by Adi Shankaracharya", "Bhairavnath temple clifftop view", "16km scenic trek from Gaurikund"),
+                entryFeeInr = 0.0,
+                timings = "4:00 AM - 9:00 PM (May to November)",
+                bestTimeToVisit = "Morning 6:00 AM for sunrise golden glow on Kedarnath Peak",
+                insiderTip = "Register on the Uttarakhand tourism portal for Yatra biometric pass; start the trek from Gaurikund at 4:30 AM.",
+                photoSpot = "Front courtyard looking up at the temple with snow peaks towering behind",
+                estimatedDurationHours = 8.0,
+                trendingTag = "✨ Sacred Himalayan Jyotirlinga on Social Media",
+                rating = 4.9,
+                reviewCount = "140K+ reviews",
+                areaOrNeighborhood = "Rudraprayag District"
+            ),
+            FamousPlace(
+                id = "uk3",
+                name = "Naini Lake & Naina Peak",
+                localName = "नैनीताल झील",
+                category = "Nature",
+                description = "Eye-shaped emerald freshwater lake nestled in the Kumaon hills, offering yachting, colorful rowboats, and Mall Road promenade.",
+                highlights = listOf("Colorful heritage rowboats & sailing yachts", "Naina Devi ancient Shaktipeeth temple", "Ropeway to Snow View point"),
+                entryFeeInr = 210.0,
+                timings = "6:00 AM - 9:00 PM",
+                bestTimeToVisit = "4:30 PM for sunset boating",
+                insiderTip = "Rent a traditional wooden rowboat and ask the boatman to stop in the center of the lake for 360-degree hill views.",
+                photoSpot = "Mall Road promenade looking over the colorful moored boats on emerald water",
+                estimatedDurationHours = 2.5,
+                trendingTag = "⛵ Top Romantic Hill Resort on Instagram",
+                rating = 4.7,
+                reviewCount = "75K+ reviews",
+                areaOrNeighborhood = "Mallital, Nainital"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "ukf1",
+                name = "Garhwali Kafuli & Chainsoo with Mandua Roti",
+                regionalName = "कफूली और चैंसूं",
+                description = "Nutritious traditional Pahadi curry made with organic spinach, fenugreek, and roasted black gram dal, served with finger millet (Mandua) flatbread.",
+                dietType = "Vegetarian",
+                famousAtEatery = "Chotiwala Restaurant (Rishikesh) & Machan (Nainital)",
+                averagePriceInr = 200.0,
+                mustTryReason = "Rich in iron and mountain herbs, slow-cooked in iron vessels for unmatched rustic earthy taste.",
+                flavorProfile = "Earthy, velvety spinach gravy, nutty black gram & wholesome",
+                isStreetFood = false,
+                trendingTag = "🌿 Authentic Pahadi Organic Heritage",
+                rating = 4.8,
+                areaOrNeighborhood = "Swarg Ashram / Tapovan"
+            ),
+            LocalFoodItem(
+                id = "ukf2",
+                name = "Bal Mithai & Singori Sweet of Almora",
+                regionalName = "बाल मिठाई",
+                description = "Roasted brown fudge made of cooked khoya (solidified milk) coated with tiny white sugar balls, and Singori wrapped in fragrant Malu leaves.",
+                dietType = "Sweet/Dessert",
+                famousAtEatery = "Kheem Singh Mohan Singh Joshi (Almora) & Nainital Sweet Corners",
+                averagePriceInr = 90.0,
+                mustTryReason = "Uttarakhand's most celebrated heritage sweet crafted in Kumaon for over 150 years.",
+                flavorProfile = "Fudge-like, caramelized chocolate-milk notes & crunchy sugar pearls",
+                isStreetFood = true,
+                trendingTag = "👑 150-Year Kumaoni Heritage Sweet",
+                rating = 4.9,
+                areaOrNeighborhood = "Mall Road, Nainital"
+            )
+        )
+    )
+
+    val gujaratData = DestinationExploreData(
+        destination = "Gujarat (Rann of Kutch, Statue of Unity & Somnath)",
+        stateOrRegion = "Gujarat",
+        country = "India",
+        tagline = "Vibrant Gujarat: White Salt Desert of Kutch, world's tallest Statue of Unity & Asiatic Lion Safari",
+        bestSeason = "November to February (Rann Utsav Full Moon)",
+        safetyTip = "Book Rann Utsav tent city early and obtain online Kutch border permits for Dhordo.",
+        onlineTrendSummary = "Synthesized from Rann of Kutch full moon reels, Gir lion safari vlogs, and Gujarati thali food reviews.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "gj1",
+                name = "Great Rann of Kutch (White Salt Desert)",
+                localName = "કચ્છનું સફેદ રણ",
+                category = "Nature",
+                description = "World's largest salt desert spanning over 7,500 sq km, transforming into a shimmering silver mirror on full moon nights during Rann Utsav.",
+                highlights = listOf("Full Moon white desert night walk", "Camel cart rides & Kutchi folk performances", "Handicrafts of Bhuj & Rogan art"),
+                entryFeeInr = 100.0,
+                timings = "6:00 AM - 8:00 PM (Full Moon open till 10 PM)",
+                bestTimeToVisit = "Sunset to Moonrise on Full Moon evenings",
+                insiderTip = "Plan your visit during the 3 days around the Full Moon for an otherworldly glowing landscape.",
+                photoSpot = "Sunset horizon where the orange sky meets endless white salt crystals",
+                estimatedDurationHours = 4.0,
+                trendingTag = "🔥 Shimmering Full Moon Phenomenon on YouTube",
+                rating = 4.9,
+                reviewCount = "80K+ reviews",
+                areaOrNeighborhood = "Dhordo, Kutch"
+            ),
+            FamousPlace(
+                id = "gj2",
+                name = "Statue of Unity (182m)",
+                localName = "સ્ટેચ્યુ ઓફ યુનિટી",
+                category = "Historical",
+                description = "The world's tallest statue (182 meters) dedicated to Sardar Vallabhbhai Patel, standing on the Narmada River with high-speed viewing gallery elevators.",
+                highlights = listOf("Viewing gallery at 153m inside statue chest", "Evening projection mapping laser sound & light show", "Valley of Flowers & Sardar Sarovar Dam"),
+                entryFeeInr = 380.0,
+                timings = "8:00 AM - 6:00 PM (Closed Mondays)",
+                bestTimeToVisit = "3:00 PM to stay for the 7:00 PM laser projection show",
+                insiderTip = "Book the Express Ticket online to skip the 1-hour viewing gallery elevator queue.",
+                photoSpot = "Helipad ground looking straight up at the 182m bronze colossus",
+                estimatedDurationHours = 4.5,
+                trendingTag = "👑 World's Tallest Statue Engineering Marvel",
+                rating = 4.8,
+                reviewCount = "120K+ reviews",
+                areaOrNeighborhood = "Kevadia, Narmada"
+            ),
+            FamousPlace(
+                id = "gj3",
+                name = "Somnath Temple & Gir National Park",
+                localName = "સોમનાથ જ્યોતિર્લિંગ",
+                category = "Spiritual",
+                description = "First of the 12 holy Jyotirlingas standing directly on the Arabian Sea coast, paired with Sasan Gir – the only natural home of Asiatic Lions.",
+                highlights = listOf("Ancient sea-facing golden spire temple", "Bāṇastambha (Arrow Pillar) pointing to South Pole", "Open-jeep Asiatic Lion jungle safari at Gir"),
+                entryFeeInr = 0.0,
+                timings = "6:00 AM - 10:00 PM",
+                bestTimeToVisit = "7:00 PM for Evening Sound & Light show by the sea",
+                insiderTip = "Watch the giant sea waves crashing against the temple fortress walls during evening Aarti.",
+                photoSpot = "Temple sea-walkway promenade with crashing ocean waves",
+                estimatedDurationHours = 3.0,
+                trendingTag = "⭐ First Holy Jyotirlinga by the Sea",
+                rating = 4.9,
+                reviewCount = "100K+ reviews",
+                areaOrNeighborhood = "Prabhas Patan, Saurashtra"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "gjf1",
+                name = "Authentic Gujarati Thali & Undhiyu",
+                regionalName = "ગુજરાતી થાળી અને ઊંધિયું",
+                description = "Grand 30-dish royal thali featuring seasonal winter vegetable Undhiyu cooked in clay pots, Khaman Dhokla, sweet Gujarati Dal, Rotli, Shrikhand, and Farsan.",
+                dietType = "Vegetarian",
+                famousAtEatery = "Agashiye (Ahmedabad), Toran Dining Hall & Gordhan Thal",
+                averagePriceInr = 380.0,
+                mustTryReason = "The masterclass of sweet, savory, tangy, and spiced culinary harmony.",
+                flavorProfile = "Harmonious sweet-savory balance, spiced Undhiyu & rich Shrikhand",
+                isStreetFood = false,
+                trendingTag = "👑 Grandest Vegetarian Culinary Thali",
+                rating = 4.9,
+                areaOrNeighborhood = "Ahmedabad / Rajkot"
+            ),
+            LocalFoodItem(
+                id = "gjf2",
+                name = "Kutchi Dabeli with Pomegranate & Peanuts",
+                regionalName = "કચ્છી દાબેલી",
+                description = "Spiced mashed potato filling laced with special Dabeli masala, stuffed inside toasted pav, garnished with crunchy roasted spiced peanuts, sev, and fresh pomegranate pearls.",
+                dietType = "Vegetarian",
+                famousAtEatery = "Famous Dabeli Centers in Mandvi & Bhuj",
+                averagePriceInr = 35.0,
+                mustTryReason = "Born in Mandvi, Kutch in the 1960s, now loved across India.",
+                flavorProfile = "Tangy, sweet, spicy, crunchy peanuts & juicy pomegranate",
+                isStreetFood = true,
+                trendingTag = "🔥 Iconic Kutch Invention Loved Worldwide",
+                rating = 4.9,
+                areaOrNeighborhood = "Mandvi / Bhuj"
+            )
+        )
+    )
+}

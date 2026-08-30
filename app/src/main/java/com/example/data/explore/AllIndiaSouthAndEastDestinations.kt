@@ -1,0 +1,415 @@
+package com.example.data.explore
+
+import com.example.data.model.DestinationExploreData
+import com.example.data.model.FamousPlace
+import com.example.data.model.LocalFoodItem
+
+object AllIndiaSouthAndEastDestinations {
+
+    val tamilNaduData = DestinationExploreData(
+        destination = "Tamil Nadu (Madurai, Ooty, Rameswaram & Kanyakumari)",
+        stateOrRegion = "Tamil Nadu",
+        country = "India",
+        tagline = "Land of Temples & Nilgiri Hills: Madurai Meenakshi towers, Pamban Sea Bridge & India's southern tip",
+        bestSeason = "October to March (Hills pleasant year-round)",
+        safetyTip = "Dress in traditional attire (dhoti/saree or salwar) for temple sanctums and book Ooty toy train tickets in advance.",
+        onlineTrendSummary = "Synthesized from Dravidian temple architecture reels, Nilgiri mountain railway vlogs, and Chettinad culinary trails.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "tn1",
+                name = "Madurai Meenakshi Amman Temple",
+                localName = "மதுரை மீனாட்சி அம்மன் கோவில்",
+                category = "Spiritual",
+                description = "Legendary 2,500-year-old temple complex with 14 towering gopurams covered with 33,000 colorful stucco sculptures and the Hall of 1000 Pillars.",
+                highlights = listOf("14 Ornate Sculpted Gopuram Towers", "Hall of 1000 Pillars with musical stone pillars", "Golden Lotus Sacred Pond (Potramarai Kulam)"),
+                entryFeeInr = 50.0,
+                timings = "5:00 AM - 12:30 PM, 4:00 PM - 10:00 PM",
+                bestTimeToVisit = "Night 9:00 PM for the sacred Sundareswarar palanquin procession",
+                insiderTip = "Tap the musical stone pillars in the outer corridor to hear distinct musical notes carved in granite.",
+                photoSpot = "South Gopuram exterior facade soaring 170 feet with thousands of colorful deities",
+                estimatedDurationHours = 3.0,
+                trendingTag = "🏛️ Wonder of Dravidian Architecture",
+                rating = 4.9,
+                reviewCount = "135K+ reviews",
+                areaOrNeighborhood = "Madurai Old City"
+            ),
+            FamousPlace(
+                id = "tn2",
+                name = "Pamban Sea Bridge & Rameswaram",
+                localName = "பாம்பன் பாலம்",
+                category = "Viewpoint",
+                description = "India's first sea bridge (built 1914) opening vertically for ships, connecting the mainland to sacred Rameswaram island across turquoise waters.",
+                highlights = listOf("Train crossing over open turquoise sea", "Ramanathaswamy Temple 22 sacred teertham wells", "Dhanushkodi ghost town & Ram Setu viewpoint"),
+                entryFeeInr = 0.0,
+                timings = "Open 24/7",
+                bestTimeToVisit = "4:30 PM for sunset over the ocean rail bridge",
+                insiderTip = "Take a 4x4 Jeep ride to Dhanushkodi beach where the Bay of Bengal meets the Indian Ocean.",
+                photoSpot = "Pamban road bridge looking down at the railway track crossing the ocean",
+                estimatedDurationHours = 3.5,
+                trendingTag = "🔥 Viral Ocean Rail Crossing on YouTube",
+                rating = 4.8,
+                reviewCount = "90K+ reviews",
+                areaOrNeighborhood = "Pamban Island / Rameswaram"
+            ),
+            FamousPlace(
+                id = "tn3",
+                name = "Kanyakumari Sunset & Vivekananda Rock Memorial",
+                localName = "கன்னியாகுமரி",
+                category = "Nature",
+                description = "The southernmost tip of the Indian subcontinent where the Indian Ocean, Arabian Sea, and Bay of Bengal converge (Triveni Sangam).",
+                highlights = listOf("Triveni Sangam confluence of three oceans", "Vivekananda Rock Memorial & 133ft Thiruvalluvar Statue", "Simultaneous Sunset and Moonrise phenomenon"),
+                entryFeeInr = 50.0,
+                timings = "7:00 AM - 5:00 PM (Ferry service)",
+                bestTimeToVisit = "Sunrise 5:45 AM and Sunset 5:45 PM",
+                insiderTip = "Take the 10-minute passenger ferry to Vivekananda Rock early in the morning to beat the afternoon queue.",
+                photoSpot = "Sunset View Point beach overlooking the Thiruvalluvar Statue and ocean waves",
+                estimatedDurationHours = 3.0,
+                trendingTag = "🌅 Triveni Sangam 3-Ocean Confluence",
+                rating = 4.8,
+                reviewCount = "110K+ reviews",
+                areaOrNeighborhood = "Kanyakumari Coast"
+            ),
+            FamousPlace(
+                id = "tn4",
+                name = "Mahabalipuram UNESCO Shore Temple & Pancha Rathas",
+                localName = "மகாபலிபுரம் கடற்கரை கோயில்",
+                category = "Historical",
+                description = "7th-century monolithic rock-cut Pallava monuments overlooking the ocean, featuring Arjuna's Penance and Krishna's Butterball boulder.",
+                highlights = listOf("Shore Temple facing the Bay of Bengal waves", "Pancha Rathas monolithic stone chariot temples", "Krishna's Butterball balanced on a 45-degree rock slope"),
+                entryFeeInr = 40.0,
+                timings = "6:00 AM - 6:00 PM",
+                bestTimeToVisit = "Early morning 6:30 AM for golden sunrise illumination on stone carvings",
+                insiderTip = "Try to push the 250-ton giant 'Krishna's Butterball' for a classic fun travel photo.",
+                photoSpot = "Shore Temple silhouette framed by ocean surf at sunrise",
+                estimatedDurationHours = 3.0,
+                trendingTag = "🏛️ UNESCO 7th-Century Monolithic Marvel",
+                rating = 4.7,
+                reviewCount = "70K+ reviews",
+                areaOrNeighborhood = "Mahabalipuram Coastal Road"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "tnf1",
+                name = "Authentic Chettinad Chicken & Mutton Chukka",
+                regionalName = "செட்டிநாடு சிக்கன்",
+                description = "Fiery, aromatic gravy made with stone-ground roasted spices, Kalpasi (black stone flower), star anise, fresh curry leaves, and Maravalli shallots.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Amma Mess (Madurai), Kumar Mess & The Bangala (Karaikudi)",
+                averagePriceInr = 280.0,
+                mustTryReason = "World-famous heritage spice blending developed by Chettiar spice-trading families.",
+                flavorProfile = "Fiery, peppery, aromatic with toasted spices & tender meat",
+                isStreetFood = false,
+                trendingTag = "👑 World-Famous Chettinad Spice Legacy",
+                rating = 4.9,
+                areaOrNeighborhood = "Madurai / Karaikudi"
+            ),
+            LocalFoodItem(
+                id = "tnf2",
+                name = "Madurai Famous Jigarthanda",
+                regionalName = "மதுரை ஜிகர்தண்டா",
+                description = "Cooling royal drink made with reduced almond gum (Badam Pisin), chilled thickened milk, nannari sarsaparilla syrup, topped with rich Basundi ice cream.",
+                dietType = "Sweet/Dessert",
+                famousAtEatery = "Famous Jigarthanda (East Marret Street, Madurai since 1977)",
+                averagePriceInr = 70.0,
+                mustTryReason = "Name means 'Cooling the Heart' – Madurai's iconic beverage created to beat tropical heat.",
+                flavorProfile = "Creamy, cooling, caramelized milk, jelly-like badam pisin & rich",
+                isStreetFood = true,
+                trendingTag = "🔥 Viral Sweet Drink on YouTube Food Vlogs",
+                rating = 4.9,
+                areaOrNeighborhood = "East Marret Street, Madurai"
+            ),
+            LocalFoodItem(
+                id = "tnf3",
+                name = "Kanchipuram Idli & Filter Coffee",
+                regionalName = "காஞ்சிபுரம் இட்லி",
+                description = "Large spiced steamed idlis seasoned with crushed black pepper, cumin, dry ginger powder, and pure ghee, steamed in traditional 'Mantharai' leaves.",
+                dietType = "Vegetarian",
+                famousAtEatery = "Sri Krishna Vilas & Varadharaja Perumal Temple Prasadam counter",
+                averagePriceInr = 60.0,
+                mustTryReason = "Ancient temple tiffin served as sacred prasadam for over 600 years.",
+                flavorProfile = "Spicy pepper warmth, ghee richness, aromatic leaf infusion",
+                isStreetFood = true,
+                trendingTag = "⭐ 600-Year Sacred Temple Tiffin",
+                rating = 4.8,
+                areaOrNeighborhood = "Kanchipuram"
+            )
+        )
+    )
+
+    val meghalayaData = DestinationExploreData(
+        destination = "Meghalaya (Shillong, Cherrapunji & Dawki)",
+        stateOrRegion = "Meghalaya (Abode of Clouds)",
+        country = "India",
+        tagline = "Abode of Clouds: Double Decker Living Root Bridges, crystal-clear Umngot River & Nohkalikai Falls",
+        bestSeason = "October to May (Monsoon June-Sept for thunderous waterfalls)",
+        safetyTip = "Wear waterproof trekking shoes with strong grip for the 3,500-step trek to Nongriat Root Bridge.",
+        onlineTrendSummary = "Synthesized from Dawki boating reels, Living Root Bridge trek vlogs, and Khasi culinary guides.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "mg1",
+                name = "Double Decker Living Root Bridge (Nongriat)",
+                localName = "Jingkieng Nongriat",
+                category = "Nature",
+                description = "Biological engineering marvel: 200-year-old double-tiered bridges bio-engineered by the indigenous Khasi tribe by guiding living aerial roots of rubber trees across rushing rivers.",
+                highlights = listOf("Two-tier living bio-engineered bridge", "3,500-step scenic jungle staircase trek", "Natural crystal blue plunge pools for swimming"),
+                entryFeeInr = 50.0,
+                timings = "6:00 AM - 5:00 PM",
+                bestTimeToVisit = "Start trek at 6:30 AM from Tyrna village",
+                insiderTip = "Hire a local Khasi guide with a bamboo walking stick; dip your feet in the natural pool for a free natural fish spa.",
+                photoSpot = "Lower bridge looking up at the twin intertwining root spans with river below",
+                estimatedDurationHours = 6.0,
+                trendingTag = "🌿 World's #1 Bio-Engineering Wonder on YouTube",
+                rating = 4.9,
+                reviewCount = "45K+ reviews",
+                areaOrNeighborhood = "Nongriat Village / Cherrapunji"
+            ),
+            FamousPlace(
+                id = "mg2",
+                name = "Dawki Umngot River (Glass-Clear Boating)",
+                localName = "Wah Umngot",
+                category = "Nature",
+                description = "World-famous crystal river so transparent that wooden boats appear to be floating on thin air, flowing along the India-Bangladesh border.",
+                highlights = listOf("Floating-in-air illusion boat rides", "Shnongpdeng riverside camping & cliff jumping", "Indo-Bangla international border post"),
+                entryFeeInr = 800.0,
+                timings = "8:00 AM - 5:00 PM (November to April for crystal transparency)",
+                bestTimeToVisit = "10:00 AM - 1:00 PM when sunlight shines vertically through water",
+                insiderTip = "Visit between December and March for absolute glass-like water clarity; monsoon rains make the water muddy.",
+                photoSpot = "From a high rock ledge showing the boat and its shadow on the riverbed",
+                estimatedDurationHours = 3.5,
+                trendingTag = "🔥 #1 Most Viral Glass-Water Reel on Instagram",
+                rating = 4.8,
+                reviewCount = "60K+ reviews",
+                areaOrNeighborhood = "Dawki / Shnongpdeng"
+            ),
+            FamousPlace(
+                id = "mg3",
+                name = "Nohkalikai Falls (India's Tallest Plunge)",
+                localName = "Nohkalikai",
+                category = "Nature",
+                description = "India's tallest plunge waterfall (1,115 ft / 340m), leaping off a cliff into an emerald green pool surrounded by rain-soaked evergreen hills.",
+                highlights = listOf("1,115ft dramatic vertical plunge", "Emerald green plunge pool", "Cave exploration trails"),
+                entryFeeInr = 20.0,
+                timings = "8:30 AM - 5:30 PM",
+                bestTimeToVisit = "11:00 AM for clear visibility before mist covers the cliff",
+                insiderTip = "Walk along the cliff edge trail past the main viewpoint to see the river feeding the fall.",
+                photoSpot = "Main viewing deck with the waterfall dropping into the turquoise abyss",
+                estimatedDurationHours = 2.0,
+                trendingTag = "🌊 India's Tallest Plunge Waterfall",
+                rating = 4.8,
+                reviewCount = "55K+ reviews",
+                areaOrNeighborhood = "Sohra / Cherrapunji"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "mgf1",
+                name = "Khasi Jadoh with Dohneiiong (Black Sesame Pork)",
+                regionalName = "Jadoh & Dohneiiong",
+                description = "Fragrant short-grain rice cooked with meat stock and turmeric, paired with pork/chicken slow-braised in a paste of roasted black sesame seeds (Neiiong) and ginger.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Trattoria (Police Bazar, Shillong) & Cafe Shillong",
+                averagePriceInr = 180.0,
+                mustTryReason = "The ultimate soul food of the Khasi hills that defines Meghalaya's tribal culinary heritage.",
+                flavorProfile = "Nutty roasted black sesame, peppery, aromatic & hearty",
+                isStreetFood = false,
+                trendingTag = "👑 Authentic Tribal Khasi Heritage",
+                rating = 4.8,
+                areaOrNeighborhood = "Police Bazar, Shillong"
+            ),
+            LocalFoodItem(
+                id = "mgf2",
+                name = "Shillong Steamed Momos & Red Chutney",
+                regionalName = "Shillong Momos",
+                description = "Thin-skinned dumplings packed with spiced minced meat or vegetables, served with a clear bone broth and fiery local Dalle chilli chutney.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Police Bazar street stalls & Laitumkhrah food corners",
+                averagePriceInr = 90.0,
+                mustTryReason = "Famous for incredibly thin handmade dough and steaming hot, juicy filling.",
+                flavorProfile = "Juicy, savory, steaming hot & fiery red chilli kick",
+                isStreetFood = true,
+                trendingTag = "🔥 Viral Street Food on YouTube",
+                rating = 4.9,
+                areaOrNeighborhood = "Police Bazar, Shillong"
+            )
+        )
+    )
+
+    val andamanData = DestinationExploreData(
+        destination = "Andaman & Nicobar Islands (Havelock & Neil)",
+        stateOrRegion = "Andaman & Nicobar Islands",
+        country = "India",
+        tagline = "Emerald Islands: Radhanagar Beach sunsets, coral reef scuba diving & historic Cellular Jail",
+        bestSeason = "October to May (Sunny with crystal turquoise waters)",
+        safetyTip = "Book Makruzz / Nautika private ferry between Port Blair and Havelock 15 days ahead.",
+        onlineTrendSummary = "Aggregated from Andaman scuba diving vlogs, Radhanagar sunset reels, and ocean adventure guides.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "an1",
+                name = "Radhanagar Beach (Havelock Island)",
+                localName = "राधानगर बीच",
+                category = "Nature",
+                description = "Ranked among Asia's best beaches by Time Magazine: Powder-soft white sand, gentle turquoise waves, and dense rainforest backdrop.",
+                highlights = listOf("Asia's top-rated powdery white sand beach", "Sensational golden sunset horizon", "Gentle swimming lagoon with zero rocks"),
+                entryFeeInr = 0.0,
+                timings = "6:00 AM - 6:00 PM",
+                bestTimeToVisit = "3:30 PM - 5:45 PM for golden hour sunset",
+                insiderTip = "Walk 15 minutes to the left end of the beach for a completely secluded paradise away from crowds.",
+                photoSpot = "Curved white sand coastline where fallen driftwood trees meet turquoise waves",
+                estimatedDurationHours = 3.5,
+                trendingTag = "🔥 Ranked Asia's #1 Beach on Social Media",
+                rating = 4.9,
+                reviewCount = "75K+ reviews",
+                areaOrNeighborhood = "Swaraj Dweep (Havelock)"
+            ),
+            FamousPlace(
+                id = "an2",
+                name = "Elephant Beach Scuba Diving & Sea Walk",
+                localName = "एलीफेंट बीच",
+                category = "Adventure",
+                description = "The premier water sports capital of India offering PADI discovery scuba dives, underwater helmet sea walking, snorkeling, and coral glass-bottom boats.",
+                highlights = listOf("Vibrant living coral reefs & clownfish spotting", "Underwater sea walk with helmet", "Speedboat transfer through mangrove channels"),
+                entryFeeInr = 1000.0,
+                timings = "7:30 AM - 3:00 PM",
+                bestTimeToVisit = "8:30 AM for maximum underwater visibility",
+                insiderTip = "Get underwater Go-Pro 4K photos and videos included directly with your dive package.",
+                photoSpot = "Underwater reef photo surrounded by tropical butterflyfish and corals",
+                estimatedDurationHours = 4.0,
+                trendingTag = "⚡ Top Coral Reef Scuba Capital on YouTube",
+                rating = 4.8,
+                reviewCount = "50K+ reviews",
+                areaOrNeighborhood = "Havelock Island"
+            ),
+            FamousPlace(
+                id = "an3",
+                name = "Cellular Jail National Memorial (Kala Pani)",
+                localName = "सेल्युलर जेल",
+                category = "Historical",
+                description = "Colonial prison complex built in 1906 where India's heroic freedom fighters endured solitary confinement, now a national pilgrimage memorial.",
+                highlights = listOf("Seven-winged radial cellular architecture", "Veer Savarkar cell with original balcony", "Evening moving Sound and Light show"),
+                entryFeeInr = 30.0,
+                timings = "9:00 AM - 12:30 PM, 1:30 PM - 4:45 PM (Light show 6:00 PM)",
+                bestTimeToVisit = "3:00 PM visit followed by 6:00 PM Sound & Light show",
+                insiderTip = "Book Sound & Light show tickets online; narration by the ancient Peepal tree brings freedom history to tears.",
+                photoSpot = "Central watchtower balcony overlooking the brick wings and ocean",
+                estimatedDurationHours = 3.0,
+                trendingTag = "🏛️ Sacred National Freedom Memorial",
+                rating = 4.9,
+                reviewCount = "85K+ reviews",
+                areaOrNeighborhood = "Atlanta Point, Port Blair"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "anf1",
+                name = "Grilled Lobster & Crab in Garlic Butter",
+                regionalName = "अंडमान ग्रिल्ड लॉबस्टर",
+                description = "Freshly caught sea lobster or mangrove mud crab grilled over open coals, drizzled with hot garlic-herb butter and served with lime wedges.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Something Different - A Beachside Cafe (Havelock) & Red Snapper",
+                averagePriceInr = 850.0,
+                mustTryReason = "Straight from the ocean waters to the table with unmatched sweetness and freshness.",
+                flavorProfile = "Sweet succulent meat, garlic butter richness & smoky grill char",
+                isStreetFood = false,
+                trendingTag = "👑 Fresh Island Seafood Luxury",
+                rating = 4.9,
+                areaOrNeighborhood = "Beach No. 2, Havelock"
+            ),
+            LocalFoodItem(
+                id = "anf2",
+                name = "Fresh Tender Coconut & Andaman Coconut Curry",
+                regionalName = "नारियल करी",
+                description = "Fresh island prawns or seasonal vegetables simmered in freshly squeezed coconut milk with curry leaves, green chillies, and steamed rice.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Full Moon Cafe & Barefoot at Havelock",
+                averagePriceInr = 320.0,
+                mustTryReason = "Island comfort food made using coconuts plucked from surrounding beach palms.",
+                flavorProfile = "Creamy, mild coconut richness, aromatic herbs & comforting",
+                isStreetFood = false,
+                trendingTag = "🥥 Authentic Island Coconut Delicacy",
+                rating = 4.8,
+                areaOrNeighborhood = "Havelock Island"
+            )
+        )
+    )
+
+    val sikkimData = DestinationExploreData(
+        destination = "Sikkim (Gangtok, Nathula Pass & Tsomgo Lake)",
+        stateOrRegion = "Sikkim",
+        country = "India",
+        tagline = "Himalayan Wonderland: Glacial Tsomgo Lake, Nathu La Indo-China border & Rumtek Monastery",
+        bestSeason = "March to May (Rhododendron blooms) or Oct to mid-Dec (Clear Kanchenjunga views)",
+        safetyTip = "Apply for Nathu La Pass and Tsomgo Lake permits 1 day in advance through registered Sikkim travel agents.",
+        onlineTrendSummary = "Synthesized from Gangtok MG Marg reels, Nathu La snow pass vlogs, and Himalayan momo guides.",
+        famousPlaces = listOf(
+            FamousPlace(
+                id = "sk1",
+                name = "Tsomgo Lake & Baba Mandir (12,400 ft)",
+                localName = "ཆང་གུ་མཚོ།",
+                category = "Nature",
+                description = "Glacial alpine lake at 12,400 ft reflecting towering snow peaks, where you ride colorfully decorated Tibetan Yaks across snow banks.",
+                highlights = listOf("Tibetan Yak ride in traditional woven gear", "Glacial lake color changes with seasons", "Passenger ropeway cable car over the frozen lake"),
+                entryFeeInr = 200.0,
+                timings = "7:30 AM - 3:00 PM (Permit mandatory)",
+                bestTimeToVisit = "Morning 8:30 AM for clear mountain reflection",
+                insiderTip = "Rent snow boots and warm jackets at the lake base stalls before taking the yak ride.",
+                photoSpot = "Lakeside snow bank sitting atop a decorated Tibetan Yak with lake backdrop",
+                estimatedDurationHours = 4.0,
+                trendingTag = "🔥 Glacial Himalayan Yak Safari on YouTube",
+                rating = 4.8,
+                reviewCount = "60K+ reviews",
+                areaOrNeighborhood = "East Sikkim (40km from Gangtok)"
+            ),
+            FamousPlace(
+                id = "sk2",
+                name = "Nathula Pass Indo-China Border (14,140 ft)",
+                localName = "རྣ་ཐོས་ལ།",
+                category = "Historical",
+                description = "Historic branch of the ancient Old Silk Route at 14,140 ft where Indian and Chinese army soldiers stand face-to-face across the international border.",
+                highlights = listOf("Indo-China border memorial pillar", "World's highest ATM & war memorial", "Historic Old Silk Route trade pass"),
+                entryFeeInr = 250.0,
+                timings = "8:30 AM - 1:30 PM (Closed Mon & Tue)",
+                bestTimeToVisit = "Morning 9:30 AM",
+                insiderTip = "Carry valid Indian voter ID/passport; foreigners are not permitted to visit Nathula.",
+                photoSpot = "Border memorial staircase looking out towards the Tibetan plateau",
+                estimatedDurationHours = 3.0,
+                trendingTag = "⭐ Sacred International Border Landmark",
+                rating = 4.9,
+                reviewCount = "70K+ reviews",
+                areaOrNeighborhood = "Indo-China Border, East Sikkim"
+            )
+        ),
+        localFoods = listOf(
+            LocalFoodItem(
+                id = "skf1",
+                name = "Sikkimese Steamed Phagshapa & Tingmo",
+                regionalName = "Phagshapa & Tingmo",
+                description = "Traditional dish of pork/mutton strips braised with dry red chillies and radishes, served with flower-shaped soft steamed Tingmo yeast bread.",
+                dietType = "Non-Veg",
+                famousAtEatery = "Taste of Tibet (MG Marg) & Nimtho Restaurant (Gangtok)",
+                averagePriceInr = 220.0,
+                mustTryReason = "Unique mountain specialty cooked without oil, letting natural meat juices and radish create a rich stew.",
+                flavorProfile = "Savory, mild radish sweetness, spicy chilli warmth & soft steamed bread",
+                isStreetFood = false,
+                trendingTag = "👑 Authentic Sikkimese Mountain Special",
+                rating = 4.8,
+                areaOrNeighborhood = "MG Marg, Gangtok"
+            ),
+            LocalFoodItem(
+                id = "skf2",
+                name = "Hot Dalle Khursani Momo with Soup",
+                regionalName = "डल्ले खुरसानी मोमो",
+                description = "Juicy momos served with the world's most pungent and flavorful round red cherry pepper dip (Dalle Khursani) and piping hot clear broth.",
+                dietType = "Vegetarian",
+                famousAtEatery = "Roll House & Tibetan Kitchen (MG Marg Gangtok)",
+                averagePriceInr = 100.0,
+                mustTryReason = "Dalle Khursani is Sikkim's GI-tagged super-chilli that packs explosive flavor and warmth.",
+                flavorProfile = "Explosive fiery pepper heat, savory filling & soothing soup",
+                isStreetFood = true,
+                trendingTag = "🔥 Viral Super-Chilli Momo Hit",
+                rating = 4.9,
+                areaOrNeighborhood = "MG Marg, Gangtok"
+            )
+        )
+    )
+}
